@@ -1,0 +1,57 @@
+{
+  "app": {
+    "name": "AI Recipe Chef",
+    "version": "1.0.0",
+    "description": "Generate personalized recipes from your available ingredients using AI"
+  },
+  "features": {
+    "aiIntegration": {
+      "provider": "OpenAI",
+      "model": "gpt-3.5-turbo",
+      "maxTokens": 1500,
+      "temperature": 0.7
+    },
+    "ingredientCategories": [
+      {
+        "name": "Protein",
+        "icon": "🥩",
+        "commonItems": ["chicken", "beef", "fish", "eggs", "tofu"]
+      },
+      {
+        "name": "Vegetables", 
+        "icon": "🥕",
+        "commonItems": ["onion", "garlic", "tomato", "carrot", "broccoli"]
+      },
+      {
+        "name": "Fruits",
+        "icon": "🍎", 
+        "commonItems": ["apple", "banana", "lemon", "orange", "berries"]
+      },
+      {
+        "name": "Grains",
+        "icon": "🌾",
+        "commonItems": ["rice", "pasta", "bread", "oats", "quinoa"]
+      },
+      {
+        "name": "Dairy",
+        "icon": "🥛",
+        "commonItems": ["milk", "cheese", "yogurt", "butter", "cream"]
+      },
+      {
+        "name": "Spices",
+        "icon": "🧂",
+        "commonItems": ["salt", "pepper", "garlic powder", "paprika", "cumin"]
+      }
+    ],
+    "units": [
+      "pieces", "cups", "tablespoons", "teaspoons", 
+      "pounds", "ounces", "grams", "liters", "milliliters"
+    ]
+  },
+  "ui": {
+    "primaryColor": "#007AFF",
+    "secondaryColor": "#FF9500",
+    "accentColor": "#34C759",
+    "errorColor": "#FF3B30"
+  }
+}
