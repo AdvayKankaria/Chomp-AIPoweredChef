@@ -30,7 +30,7 @@ Chomp is a smart cooking assistant that helps users discover recipes based on in
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/YourUsername/Chomp-AIPoweredChef.git
+git clone https://github.com/AdvayKankaria/Chomp-AIPoweredChef/tree/main
 ```
 
 2. **Open in Xcode**
@@ -55,14 +55,8 @@ git clone https://github.com/YourUsername/Chomp-AIPoweredChef.git
 
 ---
 
-## 📃 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙌 Credits
 
-Developed by [Your Name]  
+Developed by Advay Kankaria 
 Inspired by the idea of making everyday cooking smarter and simpler with AI.
 
